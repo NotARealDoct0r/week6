@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "name": "week-06-devtools_debugging_and_unit_tests",
+  "version": "1.0.0",
+  "main": "WarGame.test.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
