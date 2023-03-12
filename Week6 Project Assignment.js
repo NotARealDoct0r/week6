@@ -1,6 +1,3 @@
-const expect = chai.expect;
-const assert = chai.assert;
-
 //class to define each available/types of cards (set the value/suit to equal each other so they're associated with each other)
 class PlayingCard {
     constructor(suit, value, rank) {
@@ -110,5 +107,3 @@ game.playGame();
 const deck = new CardDeck();
 deck.createDeck();
 deck.shuffle();
-
-export default WarGame;
