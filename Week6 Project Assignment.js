@@ -1,8 +1,8 @@
 //class to define each available/types of cards (set the value/suit to equal each other so they're associated with each other)
 class PlayingCard {
     constructor(suit, value, rank) {
-        this.value = suit;
-        this.suit = value;
+        this.suit = suit;
+        this.value = value;
         this.rank = rank;
     }
 }
@@ -34,7 +34,7 @@ class CardDeck {
         //For in loop through each suit (x4)
         for (let i = 0; i < cardSuits.length; i++){
             for (let x = 0; x < cardValues.length; x++){
-                const card = new PlayingCard (x + 1, cardValues[x], cardSuits[i]);
+                const card = new PlayingCard (cardSuits[i], x + 1, cardRanks[i]);
                 this.deck.push(card);
             }
         }
